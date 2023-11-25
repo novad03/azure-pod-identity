@@ -10,7 +10,7 @@ require (
 	github.com/coreos/go-iptables v0.3.0
 	github.com/fsnotify/fsnotify v1.4.9
 	github.com/google/go-cmp v0.5.5
-	github.com/gorilla/mux v1.8.0
+	github.com/gorilla/mux v1.8.1
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.2
 	github.com/vishvananda/netlink v1.1.1-0.20220112194529-e5fd1f8193de
