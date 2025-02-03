@@ -5,7 +5,7 @@ go 1.18
 require (
 	contrib.go.opencensus.io/exporter/prometheus v0.1.0
 	github.com/Azure/azure-sdk-for-go v67.2.0+incompatible
-	github.com/Azure/go-autorest/autorest v0.11.28
+	github.com/Azure/go-autorest/autorest v0.11.30
 	github.com/Azure/go-autorest/autorest/adal v0.9.23
 	github.com/coreos/go-iptables v0.3.0
 	github.com/fsnotify/fsnotify v1.4.9
@@ -15,9 +15,9 @@ require (
 	github.com/stretchr/testify v1.8.2
 	github.com/vishvananda/netlink v1.1.1-0.20220112194529-e5fd1f8193de
 	go.opencensus.io v0.23.0
-	golang.org/x/crypto v0.6.0
-	golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4
-	golang.org/x/sys v0.5.0
+	golang.org/x/crypto v0.17.0
+	golang.org/x/sync v0.1.0
+	golang.org/x/sys v0.15.0
 	gopkg.in/yaml.v2 v2.4.0
 	k8s.io/api v0.23.17
 	k8s.io/apimachinery v0.23.17
@@ -65,10 +65,10 @@ require (
 	go.uber.org/atomic v1.7.0 // indirect
 	go.uber.org/multierr v1.6.0 // indirect
 	go.uber.org/zap v1.19.0 // indirect
-	golang.org/x/net v0.7.0 // indirect; CVE-2022-41723
+	golang.org/x/net v0.10.0 // indirect; CVE-2022-41723
 	golang.org/x/oauth2 v0.0.0-20211104180415-d3ed0bb246c8 // indirect
-	golang.org/x/term v0.5.0 // indirect
-	golang.org/x/text v0.7.0 // indirect
+	golang.org/x/term v0.15.0 // indirect
+	golang.org/x/text v0.14.0 // indirect
 	golang.org/x/time v0.0.0-20220210224613-90d013bbcef8 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/protobuf v1.27.1 // indirect
